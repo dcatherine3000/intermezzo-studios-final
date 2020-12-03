@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Intermezzo Studios</title>
+</head>
+<body>
+
+<!--Navigation Bar-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Intermezzo Studios</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Page Title Welcome Section-->
+
+<div class="jumbotron jumbotron-fluid text-center">
+    <div class="intro">
+        <img class="img-fluid" src="img/stage.jpg" alt="Stage with instruments" />
+        <h1>Intermezzo Studios</h1>
+        <p>Where music education, performance, and collaboration meet.</p>
+    </div>
+</div>
+
+<!--Three-Column Section-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <h3 class="display-4">Our Model</h3>
+            <p>We strive to create a thriving musical community by providing everything necessary for musicians to thrive, grow, and connect with other artists.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Educate</h5>
+                    <p class="card-text">We provide lessons for a wide variety of instruments and vocal styles, for students of all ages.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Perform</h5>
+                    <p class="card-text">Performance opportunities at Intermezzo are in abundance! Students may participate in recitals or create their own musical solo or collaborative events.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Collaborate</h5>
+                    <p class="card-text">Not only do we strive to create a collaborative musical community within the studio, we connect musicians with opportunities to network with other local artists.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr/>
+
+<!--Photos-->
+
+    <div class="row">
+        <div class="col-8">
+            <h3 class="display-4">Our Space</h3>
+            <div id="carouselSlides" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSlides" data-slide-to="1"></li>
+                    <li data-target="#carouselSlides" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/violin-keys.jpg" class="d-block w-100" alt="Violin and keyboard" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lessons</h5>
+                            <p>Learning space for all instruments and music theory studies</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/microphone.jpg" class="d-block w-100" alt="Recording studio microphone" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Recording Studio</h5>
+                            <p>Small studio available for rental</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/guitar.jpg" class="d-block w-100" alt="Man playing guitar" />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Rehearsal & Performance</h5>
+                            <p>Studio recital space available for rental</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <hr/>
+<!--Contact Form-->
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="col">
+            <form>
+                <div class="form-group">
+                    <label for="firstName">First Name: </label>
+                    <input type="text" class="form-control" id="firstName">
+                    <label for="lastName">Last Name: </label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+                <label>Area of Interest: </label>
+                <div class="form-group form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="lessons">
+                    <label class="form-check-label" for="lessons">Lessons</label>
+                </div>
+                <div class="form-group form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="events">
+                    <label class="form-check-label" for="events">Events</label>
+                </div>
+                <div class="form-group form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="rentals">
+                    <label class="form-check-label" for="rentals">Rentals</label>
+                </div>
+                <div class="form-group form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="collaboration">
+                    <label class="form-check-label" for="collaboration">Collaboration</label>
+                </div>
+                <div class="form-group form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" id="general">
+                    <label class="form-check-label" for="general">General questions</label>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address: </label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="textarea" rows="3" placeholder="Questions and comments here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<hr/>
+
+<!--Footer-->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <hr/>
+            <div class="col-12">
+                <h6>1234 Somewhere Street, Dreamland, USA</h6>
+                <h6>&#169; Intermezzo Studios, LLC</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Scripts-->
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

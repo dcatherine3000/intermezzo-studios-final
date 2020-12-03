@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Events</title>
+
+</head>
+<body>
+    
+<!--Navigation Bar-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Intermezzo Studios</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Breadcrumbs-->
+
+<div class="container">
+    <div class="row">
+        <div class="col my-auto">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Events</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<!--Calendar-->
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col-6">Event Name</th>
+                <th scope="col-3">Date</th>
+                <th scope="col-3">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><a role="button" href="#" id="eventsTooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Students enrolled in our lessons get the opportunity to show off all they've learned! Call or email for more information.">Elementary/Intermediate Holiday Recitals</a></th>
+                <td>December 12, 2020</td>
+                <td>Free for families</td>
+            </tr>
+            <tr>
+                <th scope="row"><a role="button" href="#" id="eventsTooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Students enrolled in our lessons get the opportunity to show off all they've learned! Call or email for more information.">High School Holiday Recitals</a></th>
+                <td>December 13, 2020</td>
+                <td>Free for families</td>
+            </tr>
+            <tr>
+                <th scope="row"><a role="button" href="#" id="eventsTooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Click for more info!">An Evening with Nat & Josh</a></th>
+                <td>December 19, 2020, 8pm</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <th scope="row"><a role="button" href="#" id="eventsTooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Click for more info!">Benson Chamber Singers Christmas Concert</a></th>
+                <td>December 20, 2020</td>
+                <td>$15</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!--Contact Form-->
+
+    <div class="row">
+        <div class="col-6">
+            <h3>Questions?</h3>
+            <form>
+                <div class="form-group">
+                    <textarea class="form-control" id="eventsTextarea" rows="6" placeholder="Submit questions about our events here"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="eventsEmail" class="form-control" placeholder="Email address" />
+                </div>
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <hr/>
+            <div class="col-12">
+                <h6>1234 Somewhere Street, Dreamland, USA</h6>
+                <h6>&#169; Intermezzo Studios, LLC</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Scripts-->
+
+<script src="js/scripts.js"></script>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

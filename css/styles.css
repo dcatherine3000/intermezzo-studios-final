@@ -126,7 +126,12 @@ footer li {
 }
 
 footer a {
-    color: darkslategray;
+    color: rgb(95, 94, 94);
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .footer-nav {

@@ -15,7 +15,7 @@
 
 <!--Navigation Bar-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
     <a class="navbar-brand" href="#">Intermezzo Studios</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,44 +41,51 @@
 
 <!--Page Title Welcome Section-->
 
-<div class="jumbotron jumbotron-fluid text-center">
+<div class="jumbotron jumbotron-fluid text-center text-light">
     <div class="intro">
-        <img class="img-fluid" src="img/stage.jpg" alt="Stage with instruments" />
-        <h1>Intermezzo Studios</h1>
-        <p>Where music education, performance, and collaboration meet.</p>
+        <div class="text-box">
+            <h1>Intermezzo Studios</h1>
+            <p>Educate. Perform. Collaborate.</p>
+        </div>
     </div>
 </div>
 
 <!--Three-Column Section-->
 
 <div class="container">
-    <div class="row">
-        <div class="col-8">
-            <h3 class="display-4">Our Model</h3>
+    <div class="row" id="model">
+        <div class="col-8 mx-auto">
+            <h2 class="display-4">Our Model</h2>
             <p>We strive to create a thriving musical community by providing everything necessary for musicians to thrive, grow, and connect with other artists.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-4">
             <div class="card">
+                <div class="card-header bg-secondary">
+                    Educate
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Educate</h5>
-                    <p class="card-text">We provide lessons for a wide variety of instruments and vocal styles, for students of all ages.</p>
+                    <p class="card-text">We provide music lessons in a wide variety of styles and instruments. Our teachers have diverse backgrounds and specializations. We teach  students of all ages and skill levels. </p>
                 </div>
             </div>
         </div>
         <div class="col-4">
             <div class="card">
+                <div class="card-header bg-secondary">
+                    Perform
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Perform</h5>
                     <p class="card-text">Performance opportunities at Intermezzo are in abundance! Students may participate in recitals or create their own musical solo or collaborative events.</p>
                 </div>
             </div>
         </div>
         <div class="col-4">
             <div class="card">
+                <div class="card-header bg-secondary">
+                    Collaborate
+                </div>
                 <div class="card-body">
-                    <h5 class="card-title">Collaborate</h5>
                     <p class="card-text">Not only do we strive to create a collaborative musical community within the studio, we connect musicians with opportunities to network with other local artists.</p>
                 </div>
             </div>
@@ -89,8 +96,8 @@
 <!--Photos-->
 
     <div class="row">
-        <div class="col-8">
-            <h3 class="display-4">Our Space</h3>
+        <div class="col-8 mx-auto">
+            <h2 class="display-4">Our Space</h2>
             <div id="carouselSlides" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselSlides" data-slide-to="0" class="active"></li>
@@ -99,10 +106,10 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/violin-keys.jpg" class="d-block w-100" alt="Violin and keyboard" />
+                        <img src="img/violin.jpg" class="d-block w-100" alt="Violin and keyboard" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Lessons</h5>
-                            <p>Learning space for all instruments and music theory studies</p>
+                            <p>Offered for many instruments and music theory studies</p>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -116,7 +123,7 @@
                         <img src="img/guitar.jpg" class="d-block w-100" alt="Man playing guitar" />
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Rehearsal & Performance</h5>
-                            <p>Studio recital space available for rental</p>
+                            <p>Studio and performance space available for rental</p>
                         </div>
                     </div>
                 </div>
@@ -134,50 +141,50 @@
     <hr/>
 <!--Contact Form-->
 
-    <div class="row">
-        <div class="col-12">
-            <h2>Contact Us</h2>
-        </div>
-        <div class="col">
-            <form>
-                <div class="form-group">
-                    <label for="firstName">First Name: </label>
-                    <input type="text" class="form-control" id="firstName">
-                    <label for="lastName">Last Name: </label>
-                    <input type="text" class="form-control" id="lastName">
-                </div>
-                <label>Area of Interest: </label>
-                <div class="form-group form-check form-check-inline">
-                    <input type="checkbox" class="form-check-input" id="lessons">
-                    <label class="form-check-label" for="lessons">Lessons</label>
-                </div>
-                <div class="form-group form-check form-check-inline">
-                    <input type="checkbox" class="form-check-input" id="events">
-                    <label class="form-check-label" for="events">Events</label>
-                </div>
-                <div class="form-group form-check form-check-inline">
-                    <input type="checkbox" class="form-check-input" id="rentals">
-                    <label class="form-check-label" for="rentals">Rentals</label>
-                </div>
-                <div class="form-group form-check form-check-inline">
-                    <input type="checkbox" class="form-check-input" id="collaboration">
-                    <label class="form-check-label" for="collaboration">Collaboration</label>
-                </div>
-                <div class="form-group form-check form-check-inline">
-                    <input type="checkbox" class="form-check-input" id="general">
-                    <label class="form-check-label" for="general">General questions</label>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address: </label>
-                    <input type="email" id="email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" id="textarea" rows="3" placeholder="Questions and comments here"></textarea>
-                </div>
-                <button type="submit" class="btn btn-secondary">Submit</button>
-            </form>
-        </div>
+<div class="row">
+    <div class="col-12 mx-auto">
+        <h2 class="display-4">Contact Us</h2>
     </div>
+    <div class="col-8 mx-auto">
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name: </label>
+                <input type="text" class="form-control" id="firstName">
+                <label for="lastName">Last Name: </label>
+                <input type="text" class="form-control" id="lastName">
+            </div>
+            <label>Area of Interest: </label>
+            <div class="form-group form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="lessons">
+                <label class="form-check-label" for="lessons">Lessons</label>
+            </div>
+            <div class="form-group form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="events">
+                <label class="form-check-label" for="events">Events</label>
+            </div>
+            <div class="form-group form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="rentals">
+                <label class="form-check-label" for="rentals">Rentals</label>
+            </div>
+            <div class="form-group form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="collaboration">
+                <label class="form-check-label" for="collaboration">Collaboration</label>
+            </div>
+            <div class="form-group form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="general">
+                <label class="form-check-label" for="general">General questions</label>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address: </label>
+                <input type="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="textarea" rows="3" placeholder="Questions and comments here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+    </div>
+</div>
 </div>
 <hr/>
 
@@ -186,15 +193,15 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 footer-nav">
                 <ul>
-                    <li><a href="about.html">About</a></li>
+                    <li><a  href="about.html">About</a></li>
                     <li><a href="events.html">Events</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+            <hr>
             </div>
-            <hr/>
             <div class="col-12">
                 <h6>1234 Somewhere Street, Dreamland, USA</h6>
                 <h6>&#169; Intermezzo Studios, LLC</h6>

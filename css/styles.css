@@ -5,9 +5,140 @@ body {
     background-color: whitesmoke;
     font-family: "Abril Fatface", cursive;
 }
+
+h1,
+h2 {
+    padding: 1.2rem;
+}
+
 /* Navigation Bar */
 
-/* Welcome Section */
+.navbar-brand {
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 1.05rem;
+    font-size: 1.3rem;
+}
+
+/* Home Page Content  */
+
+.jumbotron {
+    height: 110vh;
+}
+
+.intro {
+    background-image: url("../img/stage.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.text-box {
+    background-color: rgba(0,0,0,0.75);
+    display: block;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 40vh;
+    padding: 1rem;
+}
+
+.intro h1 {
+    font-size: 4rem;
+}
+
+.intro p {
+    font-size: 2rem;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+#model {
+    padding: 1.3rem;
+}
+
+hr {
+    margin-top: 5rem;
+    
+}
+
+.card {
+    border: solid black .5px;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card-body {
+    padding: .75rem;
+}
+
+.card p {
+    font-size: 1.1rem;
+}
+
+.carousel {
+    margin-top: 1.5rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+}
+
+label {
+    padding: .25rem;
+}
+
+.form-check-label {
+    padding: .2rem;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer li {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: darkslategray;
+}
+
+.footer-nav {
+    padding: 0;
+    margin: 0;
+    height: 50%;
+}
+
+footer hr {
+    width: 50%;
+    margin-top: 0;
+}
 
 /* Contact Page */
 

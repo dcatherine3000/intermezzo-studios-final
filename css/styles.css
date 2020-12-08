@@ -165,7 +165,25 @@ footer hr {
     text-align: left;
 }
 
+/* Events Page */
 
+.table {
+    font-size: 1.2rem;
+    margin: 2rem auto;
+}
+
+.table thead {
+    font-size: 1.5rem;
+}
+
+.events-contact {
+    margin: 2rem auto;
+}
+
+.events-contact h3 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
 
 /* Contact Page */
 

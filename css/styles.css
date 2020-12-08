@@ -145,6 +145,28 @@ footer hr {
     margin-top: 0;
 }
 
+/* About Page */
+
+.flex-column {
+    border: solid rgba(0,0,0,0.5) 2px;
+    padding: 1.25rem;
+    width: 75%;
+    position: relative;
+    top: 3rem;
+}
+
+.flex-column li {
+    padding: 0;
+    width: 50%;
+    margin: 0;
+}
+
+#about-content p {
+    text-align: left;
+}
+
+
+
 /* Contact Page */
 
 #map {

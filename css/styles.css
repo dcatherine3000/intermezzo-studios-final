@@ -206,7 +206,23 @@ footer hr {
 
 /* Contact Page */
 
+.contact-info {
+    text-align: right;
+    font-size: 1.25rem;
+}
+
+.contact-info h3 {
+    text-align: right;
+    text-decoration: underline;
+    margin-top: .75rem;
+}
+
+.contact-row {
+    margin: 4rem auto;
+}
+
 #map {
     width: 75%;
+    margin: 0 auto;
 }
 
